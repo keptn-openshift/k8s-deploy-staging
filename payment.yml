@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: payment
-        image: 10.47.251.87:5000/library/sockshop/payment-0.22.0
+        image: docker-registry.default.svc:5000/sockshop-registry/sockshop-payment:0.23.0
         env: 
         - name: DT_TAGS
           value: "product=sockshop"
