@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: front-end
-        image: docker-registry.default.svc:5000/sockshop-registry/sockshop-front-end:0.9.0
+        image: docker-registry.default.svc:5000/sockshop-registry/sockshop-front-end:0.10.0
         env: 
         - name: DT_TAGS
           value: "product=sockshop"
